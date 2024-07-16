@@ -1,0 +1,13 @@
+import random
+
+from ssqaapitest.src.utilities.dbUtility import DBUtility
+
+
+class ProductDao(object):
+    def __init__(self):
+        self.db_helper = DBUtility()
+
+    def get_random_product_from_db(self, quantity=1):
+        sql = f"select * from `local`.wp_posts where post_type='product' order by rand() desc limit 5000"
+        rs_sql = self.db_helper.execute_select(sql)
+        return random.sample(rs_sql, int(quantity))

@@ -29,5 +29,4 @@ class DBUtility(object):
 
         return rs_dict
 
-    def execute_sql(self, sql):
-        pass
+

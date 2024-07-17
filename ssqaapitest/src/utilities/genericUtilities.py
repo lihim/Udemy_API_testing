@@ -23,3 +23,8 @@ def generate_random_email_and_password(domain=None, email_prefix=None):
     logger.debug(f"Randomly generated email and password: {random_info}")
 
     return random_info
+
+def generate_random_name(length = 10, prefix=None, suffix=None ):
+
+    random_string = ''.join(random.choices(string.ascii_lowercase, k=length))
+    return random_string

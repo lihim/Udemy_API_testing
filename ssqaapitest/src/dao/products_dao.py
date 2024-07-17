@@ -11,3 +11,8 @@ class ProductDao(object):
         sql = f"select * from `local`.wp_posts where post_type='product' order by rand() desc limit 5000"
         rs_sql = self.db_helper.execute_select(sql)
         return random.sample(rs_sql, int(quantity))
+
+    def get_product_from_db_by_id(self, id=1):
+        sql = f"select * from `local`.wp_posts where id='{id}'"
+        rs_sql = self.db_helper.execute_select(sql)
+        return rs_sql

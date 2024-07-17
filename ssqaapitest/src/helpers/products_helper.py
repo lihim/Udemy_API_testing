@@ -1,6 +1,7 @@
 from ssqaapitest.src.utilities.requestsUtility import RequestsUtility
 
 
+
 class ProductsHelper(object):
 
     def __init__(self):
@@ -11,4 +12,5 @@ class ProductsHelper(object):
         return self.requests_utility.post(f'products/{id}')
 
 
-        # return create_user_json
+    def create_product(self, payload):
+        return self.requests_utility.post('products', payload = payload, expected_status_code=201)

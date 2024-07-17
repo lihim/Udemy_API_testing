@@ -5,17 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e926ebdd-9a2c-4d3f-84bf-b0e07dc976cd" name="Changes" comment="test30">
-      <change afterPath="$PROJECT_DIR$/ssqaapitest/src/dao/products_dao.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssqaapitest/src/helpers/products_helper.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssqaapitest/tests/customers/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssqaapitest/tests/customers/test_create_customers_smoke.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssqaapitest/tests/products/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssqaapitest/tests/products/test_get_product_smoke.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssqaapitest/tests/products/test_create_product_smoke.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssqaapitest/tests/products/test_get_product_regression.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssqaapitest/src/dao/customers_dao.py" beforeDir="false" afterPath="$PROJECT_DIR$/ssqaapitest/src/dao/customers_dao.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssqaapitest/src/utilities/dbUtility.py" beforeDir="false" afterPath="$PROJECT_DIR$/ssqaapitest/src/utilities/dbUtility.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssqaapitest/tests/test_create_customers_smoke.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssqaapitest/tests/test_get_customers_smoke.py" beforeDir="false" afterPath="$PROJECT_DIR$/ssqaapitest/tests/customers/test_get_customers_smoke.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssqaapitest/src/dao/products_dao.py" beforeDir="false" afterPath="$PROJECT_DIR$/ssqaapitest/src/dao/products_dao.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssqaapitest/src/helpers/products_helper.py" beforeDir="false" afterPath="$PROJECT_DIR$/ssqaapitest/src/helpers/products_helper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssqaapitest/src/utilities/genericUtilities.py" beforeDir="false" afterPath="$PROJECT_DIR$/ssqaapitest/src/utilities/genericUtilities.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssqaapitest/tests/products/test_get_product_smoke.py" beforeDir="false" afterPath="$PROJECT_DIR$/ssqaapitest/tests/products/test_get_product_smoke.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,30 +39,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python tests.Python tests for test_create_customers_smoke.test_create_customer_fail_for_existing_email.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_create_customers_smoke.test_create_customer_fail_for_existing_email.test_get_all_products.executor&quot;: &quot;Debug&quot;,
-    &quot;Python tests.Python tests for test_create_customers_smoke.test_create_customer_only_email_password.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_create_customers_smoke.test_get_all_products.executor&quot;: &quot;Debug&quot;,
-    &quot;Python tests.Python tests for test_get_customers_smoke.test_get_all_customers.executor&quot;: &quot;Debug&quot;,
-    &quot;Python tests.Python tests for test_get_product_smoke.test_get_product_by_id.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_create_customers_smoke.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_get_customers_smoke.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in tests.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.pytest for ssqaapitest.tests.products.test_get_product_smoke.test_get_product_by_id.executor&quot;: &quot;Debug&quot;,
-    &quot;Python tests.pytest for ssqaapitest.tests.test_create_customers_smoke.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.pytest for ssqaapitest.tests.test_create_customers_smoke.test_create_customer_fail_for_existing_email.executor&quot;: &quot;Debug&quot;,
-    &quot;Python tests.pytest for ssqaapitest.tests.test_create_customers_smoke.test_create_customer_only_email_password.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.pytest for ssqaapitest.tests.test_create_customers_smoke.top_level_collect.executor&quot;: &quot;Debug&quot;,
-    &quot;Python tests.pytest for ssqaapitest.tests.test_get_customers_smoke.test_get_all_customers.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.requestsUtility.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/LihiMartin/PycharmProjects/Usemy_API_Testing&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python tests.Python tests for test_create_customers_smoke.test_create_customer_fail_for_existing_email.executor": "Run",
+    "Python tests.Python tests for test_create_customers_smoke.test_create_customer_fail_for_existing_email.test_get_all_products.executor": "Debug",
+    "Python tests.Python tests for test_create_customers_smoke.test_create_customer_only_email_password.executor": "Run",
+    "Python tests.Python tests for test_create_customers_smoke.test_get_all_products.executor": "Debug",
+    "Python tests.Python tests for test_create_product_smoke.test_create_1_simple_product.executor": "Run",
+    "Python tests.Python tests for test_get_customers_smoke.test_get_all_customers.executor": "Debug",
+    "Python tests.Python tests for test_get_product_smoke.test_get_all_products.executor": "Run",
+    "Python tests.Python tests for test_get_product_smoke.test_get_product_by_id.executor": "Run",
+    "Python tests.Python tests in products.executor": "Run",
+    "Python tests.Python tests in test_create_customers_smoke.py.executor": "Run",
+    "Python tests.Python tests in test_get_customers_smoke.py.executor": "Run",
+    "Python tests.Python tests in tests.executor": "Run",
+    "Python tests.pytest for ssqaapitest.tests.products.test_get_product_smoke.test_get_product_by_id.executor": "Debug",
+    "Python tests.pytest for ssqaapitest.tests.test_create_customers_smoke.executor": "Run",
+    "Python tests.pytest for ssqaapitest.tests.test_create_customers_smoke.test_create_customer_fail_for_existing_email.executor": "Debug",
+    "Python tests.pytest for ssqaapitest.tests.test_create_customers_smoke.test_create_customer_only_email_password.executor": "Run",
+    "Python tests.pytest for ssqaapitest.tests.test_create_customers_smoke.top_level_collect.executor": "Debug",
+    "Python tests.pytest for ssqaapitest.tests.test_get_customers_smoke.test_get_all_customers.executor": "Debug",
+    "Python.requestsUtility.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/LihiMartin/PycharmProjects/TestAutomation"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\LihiMartin\PycharmProjects\Usemy_API_Testing" />
@@ -77,7 +77,7 @@
       <recent name="C:\Users\LihiMartin\PycharmProjects\Usemy_API_Testing\ssqaapitest\tests" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for ssqaapitest.tests.products.test_get_product_smoke.test_get_product_by_id">
+  <component name="RunManager" selected="Python tests.Python tests in products">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Usemy_API_Testing" />
       <option name="ENV_FILES" value="" />
@@ -100,33 +100,33 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for ssqaapitest.tests.customers.test_create_customers_smoke.test_create_customer_fail_for_existing_email" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_create_product_smoke.test_create_1_simple_product" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Usemy_API_Testing" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ssqaapitest/tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ssqaapitest/tests/products" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;ssqaapitest.tests.customers.test_create_customers_smoke.test_create_customer_fail_for_existing_email&quot;" />
+      <option name="_new_target" value="&quot;test_create_product_smoke.test_create_1_simple_product&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for ssqaapitest.tests.customers.test_create_customers_smoke.test_get_all_products" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_get_product_smoke.test_get_all_products" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Usemy_API_Testing" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ssqaapitest/tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ssqaapitest/tests/products" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;ssqaapitest.tests.customers.test_create_customers_smoke.test_get_all_products&quot;" />
+      <option name="_new_target" value="&quot;test_get_product_smoke.test_get_all_products&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -145,18 +145,18 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests in tests" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests in products" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Usemy_API_Testing" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ssqaapitest/tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ssqaapitest/tests/products" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/ssqaapitest/tests&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/ssqaapitest/tests/products&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
@@ -179,11 +179,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest for ssqaapitest.tests.products.test_get_product_smoke.test_get_product_by_id" />
+        <item itemvalue="Python tests.Python tests in products" />
+        <item itemvalue="Python tests.Python tests for test_create_product_smoke.test_create_1_simple_product" />
+        <item itemvalue="Python tests.Python tests for test_get_product_smoke.test_get_all_products" />
         <item itemvalue="Python tests.Python tests for test_get_product_smoke.test_get_product_by_id" />
-        <item itemvalue="Python tests.Python tests for ssqaapitest.tests.customers.test_create_customers_smoke.test_get_all_products" />
-        <item itemvalue="Python tests.Python tests for ssqaapitest.tests.customers.test_create_customers_smoke.test_create_customer_fail_for_existing_email" />
-        <item itemvalue="Python tests.Python tests in tests" />
+        <item itemvalue="Python tests.pytest for ssqaapitest.tests.products.test_get_product_smoke.test_get_product_by_id" />
       </list>
     </recent_temporary>
   </component>
@@ -231,39 +231,49 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/ssqaapitest/tests/customers/test_create_customers_smoke.py</url>
+          <url>file://$PROJECT_DIR$/../Courses/Udemy/API_Testing/ssqaapitest/tests/customers/test_create_customers_smoke.py</url>
           <line>31</line>
           <option name="timeStamp" value="46" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/ssqaapitest/tests/customers/test_create_customers_smoke.py</url>
+          <url>file://$PROJECT_DIR$/../Courses/Udemy/API_Testing/ssqaapitest/tests/customers/test_create_customers_smoke.py</url>
           <line>29</line>
           <option name="timeStamp" value="47" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/ssqaapitest/tests/customers/test_get_customers_smoke.py</url>
+          <url>file://$PROJECT_DIR$/../Courses/Udemy/API_Testing/ssqaapitest/tests/customers/test_get_customers_smoke.py</url>
           <line>14</line>
           <option name="timeStamp" value="52" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/ssqaapitest/tests/customers/test_get_customers_smoke.py</url>
+          <url>file://$PROJECT_DIR$/../Courses/Udemy/API_Testing/ssqaapitest/tests/customers/test_get_customers_smoke.py</url>
           <line>12</line>
           <option name="timeStamp" value="53" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/ssqaapitest/tests/customers/test_create_customers_smoke.py</url>
+          <url>file://$PROJECT_DIR$/../Courses/Udemy/API_Testing/ssqaapitest/tests/customers/test_create_customers_smoke.py</url>
           <line>67</line>
           <option name="timeStamp" value="73" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/ssqaapitest/tests/products/test_get_product_smoke.py</url>
+          <url>file://$PROJECT_DIR$/../Courses/Udemy/API_Testing/ssqaapitest/tests/products/test_get_product_smoke.py</url>
           <line>21</line>
           <option name="timeStamp" value="74" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/ssqaapitest/tests/products/test_get_product_smoke.py</url>
+          <url>file://$PROJECT_DIR$/../Courses/Udemy/API_Testing/ssqaapitest/tests/products/test_get_product_smoke.py</url>
           <line>19</line>
           <option name="timeStamp" value="79" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ssqaapitest/tests/products/test_create_product_smoke.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="85" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ssqaapitest/src/dao/products_dao.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="86" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>

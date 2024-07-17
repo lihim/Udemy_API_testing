@@ -20,3 +20,5 @@ def test_get_product_by_id():
     product_res = product_helper.get_product_by_id(product[0]['ID'])
 
     assert product_res['name'] == product[0]['post_title']
+
+

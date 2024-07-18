@@ -4,15 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e926ebdd-9a2c-4d3f-84bf-b0e07dc976cd" name="Changes" comment="test30">
-      <change afterPath="$PROJECT_DIR$/ssqaapitest/tests/products/test_create_product_smoke.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssqaapitest/tests/products/test_get_product_regression.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="e926ebdd-9a2c-4d3f-84bf-b0e07dc976cd" name="Changes" comment="test create simple product">
+      <change afterPath="$PROJECT_DIR$/ssqaapitest/tests/products/test_get_product_with_filter.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ssqaapitest/src/dao/products_dao.py" beforeDir="false" afterPath="$PROJECT_DIR$/ssqaapitest/src/dao/products_dao.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ssqaapitest/src/helpers/products_helper.py" beforeDir="false" afterPath="$PROJECT_DIR$/ssqaapitest/src/helpers/products_helper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssqaapitest/src/utilities/genericUtilities.py" beforeDir="false" afterPath="$PROJECT_DIR$/ssqaapitest/src/utilities/genericUtilities.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssqaapitest/tests/products/test_get_product_smoke.py" beforeDir="false" afterPath="$PROJECT_DIR$/ssqaapitest/tests/products/test_get_product_smoke.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssqaapitest/tests/products/test_get_product_regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/ssqaapitest/src/utilities/wooAPiUtility.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,17 +46,23 @@
     "Python tests.Python tests for test_get_customers_smoke.test_get_all_customers.executor": "Debug",
     "Python tests.Python tests for test_get_product_smoke.test_get_all_products.executor": "Run",
     "Python tests.Python tests for test_get_product_smoke.test_get_product_by_id.executor": "Run",
+    "Python tests.Python tests for test_get_product_with_filter.TestProductsWithFilter.test_list_products_with_filter_after.executor": "Debug",
     "Python tests.Python tests in products.executor": "Run",
     "Python tests.Python tests in test_create_customers_smoke.py.executor": "Run",
+    "Python tests.Python tests in test_create_product_smoke.py.executor": "Run",
     "Python tests.Python tests in test_get_customers_smoke.py.executor": "Run",
+    "Python tests.Python tests in test_get_product_with_filter.py.executor": "Debug",
     "Python tests.Python tests in tests.executor": "Run",
     "Python tests.pytest for ssqaapitest.tests.products.test_get_product_smoke.test_get_product_by_id.executor": "Debug",
+    "Python tests.pytest for ssqaapitest.tests.products.test_get_product_with_filter.TestProductsWithFilter.test_list_products_with_filter_after.executor": "Debug",
     "Python tests.pytest for ssqaapitest.tests.test_create_customers_smoke.executor": "Run",
     "Python tests.pytest for ssqaapitest.tests.test_create_customers_smoke.test_create_customer_fail_for_existing_email.executor": "Debug",
     "Python tests.pytest for ssqaapitest.tests.test_create_customers_smoke.test_create_customer_only_email_password.executor": "Run",
     "Python tests.pytest for ssqaapitest.tests.test_create_customers_smoke.top_level_collect.executor": "Debug",
     "Python tests.pytest for ssqaapitest.tests.test_get_customers_smoke.test_get_all_customers.executor": "Debug",
+    "Python.products_helper.executor": "Debug",
     "Python.requestsUtility.executor": "Run",
+    "Python.wooAPiUtility.executor": "Debug",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -77,7 +80,7 @@
       <recent name="C:\Users\LihiMartin\PycharmProjects\Usemy_API_Testing\ssqaapitest\tests" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests in products">
+  <component name="RunManager" selected="Python.wooAPiUtility">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Usemy_API_Testing" />
       <option name="ENV_FILES" value="" />
@@ -100,7 +103,51 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_create_product_smoke.test_create_1_simple_product" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="products_helper" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Usemy_API_Testing" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ssqaapitest/src/helpers" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ssqaapitest/src/helpers/products_helper.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="wooAPiUtility" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Usemy_API_Testing" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ssqaapitest/src/utilities" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ssqaapitest/src/utilities/wooAPiUtility.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_get_product_with_filter.TestProductsWithFilter.test_list_products_with_filter_after" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Usemy_API_Testing" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -111,11 +158,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_create_product_smoke.test_create_1_simple_product&quot;" />
+      <option name="_new_target" value="&quot;test_get_product_with_filter.TestProductsWithFilter.test_list_products_with_filter_after&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_get_product_smoke.test_get_all_products" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests in test_get_product_with_filter.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Usemy_API_Testing" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -126,41 +173,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_get_product_smoke.test_get_all_products&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for test_get_product_smoke.test_get_product_by_id" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="Usemy_API_Testing" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ssqaapitest/tests/products" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_get_product_smoke.test_get_product_by_id&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests in products" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="Usemy_API_Testing" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ssqaapitest/tests/products" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/ssqaapitest/tests/products&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/ssqaapitest/tests/products/test_get_product_with_filter.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for ssqaapitest.tests.products.test_get_product_smoke.test_get_product_by_id" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for ssqaapitest.tests.products.test_get_product_with_filter.TestProductsWithFilter.test_list_products_with_filter_after" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Usemy_API_Testing" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -173,17 +190,17 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;ssqaapitest.tests.products.test_get_product_smoke.test_get_product_by_id&quot;" />
+      <option name="_new_target" value="&quot;ssqaapitest.tests.products.test_get_product_with_filter.TestProductsWithFilter.test_list_products_with_filter_after&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests in products" />
-        <item itemvalue="Python tests.Python tests for test_create_product_smoke.test_create_1_simple_product" />
-        <item itemvalue="Python tests.Python tests for test_get_product_smoke.test_get_all_products" />
-        <item itemvalue="Python tests.Python tests for test_get_product_smoke.test_get_product_by_id" />
-        <item itemvalue="Python tests.pytest for ssqaapitest.tests.products.test_get_product_smoke.test_get_product_by_id" />
+        <item itemvalue="Python.wooAPiUtility" />
+        <item itemvalue="Python tests.Python tests in test_get_product_with_filter.py" />
+        <item itemvalue="Python.products_helper" />
+        <item itemvalue="Python tests.pytest for ssqaapitest.tests.products.test_get_product_with_filter.TestProductsWithFilter.test_list_products_with_filter_after" />
+        <item itemvalue="Python tests.Python tests for test_get_product_with_filter.TestProductsWithFilter.test_list_products_with_filter_after" />
       </list>
     </recent_temporary>
   </component>
@@ -219,13 +236,22 @@
       <option name="project" value="LOCAL" />
       <updated>1719760993550</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="test create simple product">
+      <option name="closed" value="true" />
+      <created>1721234670321</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1721234670321</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="until lesson 32" />
     <MESSAGE value="test30" />
-    <option name="LAST_COMMIT_MESSAGE" value="test30" />
+    <MESSAGE value="test create simple product" />
+    <option name="LAST_COMMIT_MESSAGE" value="test create simple product" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -271,9 +297,44 @@
           <option name="timeStamp" value="85" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/ssqaapitest/src/dao/products_dao.py</url>
-          <line>17</line>
-          <option name="timeStamp" value="86" />
+          <url>file://$PROJECT_DIR$/ssqaapitest/tests/products/test_get_product_with_filter.py</url>
+          <line>35</line>
+          <option name="timeStamp" value="102" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ssqaapitest/src/helpers/products_helper.py</url>
+          <line>29</line>
+          <option name="timeStamp" value="107" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ssqaapitest/src/helpers/products_helper.py</url>
+          <line>21</line>
+          <option name="timeStamp" value="108" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ssqaapitest/src/helpers/products_helper.py</url>
+          <line>22</line>
+          <option name="timeStamp" value="109" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ssqaapitest/src/utilities/wooAPiUtility.py</url>
+          <line>37</line>
+          <option name="timeStamp" value="111" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ssqaapitest/src/utilities/wooAPiUtility.py</url>
+          <line>36</line>
+          <option name="timeStamp" value="112" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ssqaapitest/src/utilities/wooAPiUtility.py</url>
+          <line>25</line>
+          <option name="timeStamp" value="113" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ssqaapitest/src/utilities/wooAPiUtility.py</url>
+          <line>21</line>
+          <option name="timeStamp" value="114" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>

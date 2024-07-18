@@ -16,3 +16,7 @@ class ProductDao(object):
         sql = f"select * from `local`.wp_posts where id='{id}'"
         rs_sql = self.db_helper.execute_select(sql)
         return rs_sql
+
+    def get_list_of_product_by_dat_post(self, time):
+        sql = f"select * from `local`.wp_posts where post_type = 'product' and post_date > '{time}'"
+        return self.db_helper.execute_select(sql)
